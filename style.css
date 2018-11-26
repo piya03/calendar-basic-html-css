@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html {font-size: 1em;}
+
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;}
+
+h3 {font-size: 1.777em;}
+
+h4 {font-size: 1.333em;
+text-align: center;
+}
+
+small, .font_small {font-size: 0.75em;}
+
+
+
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.page-title {
+  text-align: center;
+   color: #fff;
+  
+
+}
+.page-title small {
+    display: block;
+   
+}
+.primary-bg{
+    background-color: #0097A7;
+}
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    border: solid 1px white;
+}
+@media (min-width:768px){
+    .container{
+      max-width: 738px;
+    }
+  }
+  @media (min-width:1024px){
+    .container{
+      max-width: 990px;
+    }
+  }
+.calendar {
+   padding: 15px;
+   list-style: none;
+   background-color: rgba(255,255,255,.4);
+   border-radius: 10px; 
+}
+.calendar:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.calendar li {
+    padding: 5px;
+    float: left;
+    width: 14.286%;
+}
+.calendar li div {
+    background-color: rgba(0,0,0,.5);
+    min-height: 100px;
+    position: relative;
+    padding: 4px;
+}
+.calendar li div span {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    font-size: .8em;
+    padding: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0,0,0,.1);
+    border-radius : 0 0 0 4px;
+}
